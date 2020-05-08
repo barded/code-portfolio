@@ -1,0 +1,36 @@
+max_normals 0
+max_vertices 0
+
+camera 3 0 -6 -.33 0 1 0 1 0 30
+#film_resolution 640 480
+film_resolution 320 240
+
+
+spot_light 60 60 60 0 -5 -5 0 1 1 10 60
+
+
+material 1 1 1 .75 .75 .75 0 0 0 32 0 0 0 1.5
+#plane 0 -15 10 0 1 -1
+
+#outer eye
+material 1 1 1 .1 .1 .1 0 0 0 17 .8 .8 .8 1..5
+#material 0 0 0 .2 .2 .2 .1 .1 .1 15 .9 .9 .9 1.5
+
+sphere 0 0 5 5
+
+# blue
+material .3 .3 1 .3 .3 .3 0 .1 .95 2 .4 .74 .84 1.2
+sphere 0 0 4 4
+
+#black
+material 0 0 0 0 0 0 .9 .9 .9 15 0 0 0 1
+sphere 0 0 .5 .501
+
+ambient_light .1 .1 .1
+background 0 0 0
+
+output_image eye.png
+
+nsamp 1
+sampmethod 0
+max_depth 5

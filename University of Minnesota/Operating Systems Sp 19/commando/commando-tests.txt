@@ -1,0 +1,57 @@
+Setting COLUMNS based on stty
+COLUMNS is 168
+Loading tests... 20 tests loaded
+Running 20 tests
+
+RUNNING NORMAL TESTS
+TEST  1 help-exit          : OK
+TEST  2 list-exit          : OK
+TEST  3 end-of-input       : OK
+TEST  4 blank-lines        : OK
+TEST  5 ls-stuff           : OK
+TEST  6 cat-quote          : OK
+TEST  7 sleep-1            : OK
+TEST  8 ls-multiple        : OK
+TEST  9 ls-table           : OK
+TEST 10 compile-run        : OK
+TEST 11 output-all         : OK
+TEST 12 wait-all           : OK
+TEST 13 output-checks      : OK
+TEST 14 pause-present      : OK
+TEST 15 pause-works        : OK
+TEST 16 pause-medium       : OK
+TEST 17 pause-not-done     : OK
+TEST 18 wait-coord         : OK
+TEST 19 stress1            : OK
+TEST 20 stress2            : OK
+Finished:
+20 / 20 Normal correct
+
+RUNNING VALGRIND TESTS
+TEST  1 help-exit          : Valgrind OK
+TEST  2 list-exit          : Valgrind OK
+TEST  3 end-of-input       : Valgrind OK
+TEST  4 blank-lines        : Valgrind OK
+TEST  5 ls-stuff           : Valgrind OK
+TEST  6 cat-quote          : Valgrind OK
+TEST  7 sleep-1            : Valgrind OK
+TEST  8 ls-multiple        : Valgrind OK
+TEST  9 ls-table           : Valgrind OK
+TEST 10 compile-run        : Valgrind OK
+TEST 11 output-all         : Valgrind OK
+TEST 12 wait-all           : Valgrind OK
+TEST 13 output-checks      : Valgrind OK
+TEST 14 pause-present      : Valgrind OK
+TEST 15 pause-works        : Valgrind OK
+TEST 16 pause-medium       : Valgrind OK
+TEST 17 pause-not-done     : Valgrind OK
+TEST 18 wait-coord         : Valgrind OK
+TEST 19 stress1            : Valgrind OK
+TEST 20 stress2            : Valgrind OK
+Finished:
+20 / 20 Valgrind correct
+
+============================================================
+OVERALL:
+20 / 20 Normal correct
+20 / 20 Valgrind correct

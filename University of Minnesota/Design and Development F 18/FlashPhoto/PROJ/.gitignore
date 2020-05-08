@@ -1,0 +1,5 @@
+build
+*.local
+
+#ignore these folders
+web

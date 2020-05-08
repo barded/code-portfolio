@@ -1,0 +1,11 @@
+The first number in numLevels.txt is how many levels there are. The second number is what level to start at.
+
+Map	Format:
+The	map	stores	the	world	as	a	rectilinear	map.	The	first	row	is	width	and
+height.		The	player	will	start	at	the	point	marked	S and	must	reach	the	point	marked
+G to	finish	the	level.	The	player’s	progress	may	be	hindered	by	walls	(marked	W)	and
+doors	(marked	with	a	capital	letter	A-E).	Throughout	the	environment	will	be	keys
+(marked	with	a	lowercase	a-e).	A	player	may	not	cross	through	a	door	unless	they
+have	picked	up	the	corresponding	key.	A	player	may	never	cross	a	wall.
+
+To add levels, add more .txt files and update numLevels.txt.

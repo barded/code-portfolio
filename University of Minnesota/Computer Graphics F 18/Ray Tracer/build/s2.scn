@@ -1,0 +1,51 @@
+max_normals 0
+max_vertices 0
+
+
+camera 0 0 -.5 0 0 1 0 1 0 45
+film_resolution 480 640
+point_light 15 15 15 0 5 -5
+
+
+material .25 .25 .25 0 0 0 .4 .4 .4 16 0 0 0 0
+plane -2 -8 0 0 1 -1
+material 0 0 1 0 0 1 .8 .8 .8 16 .3 .3 .3 1.3
+sphere 0 0 3 1.5
+
+normal 0 0 -1
+normal 0 0 -1
+normal 0 -1 -1
+vertex 2 0 1
+vertex -.5 -1 1
+vertex 1 1 1
+
+
+material 1 0 1 0 0 1 1 1 1 16 .9 .9 .9 1.5
+normal_triangle 0 1 2 0 1 2
+
+vertex -.5 -1 1
+vertex -1 1.5 1
+vertex -2 0 2
+normal 0 -2 -1
+normal -.5 1 -1
+normal -1 0 0
+material 0 1 1 0 1 1 .4 .4 .2 1 .9 .9 .9 1.2
+normal_triangle 3 4 5 3 4 5
+
+vertex -1 1.5 1
+normal .2 1 -1
+material 0 0 0 0 .8 .2 .2 .6 .2 18 .9 .9 .9 1.1
+normal_triangle 1 2 6 1 2 6
+
+
+
+output_image s2.png
+
+ambient_light .1 .1 .1
+ambient_light .3 .3 .3
+
+background .1 .1 .1
+
+nsamp 1
+sampmethod 0
+max_depth 3

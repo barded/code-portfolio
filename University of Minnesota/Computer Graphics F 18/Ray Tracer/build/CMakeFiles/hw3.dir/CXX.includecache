@@ -1,0 +1,172 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/color.h
+
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/image.h
+assert.h
+-
+stdio.h
+-
+pixel.h
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/pixel.h
+stb_image.h
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/stb_image.h
+stb_image_write.h
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/stb_image_write.h
+
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/light.h
+color.h
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/color.h
+point.h
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/point.h
+vector.h
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/vector.h
+string
+-
+
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/main.cpp
+ray.h
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/ray.h
+point.h
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/point.h
+vector.h
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/vector.h
+surface.h
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/surface.h
+material.h
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/material.h
+scene.h
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/scene.h
+light.h
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/light.h
+color.h
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/color.h
+image.h
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/image.h
+pixel.h
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/pixel.h
+cassert
+-
+cstdio
+-
+cstdlib
+-
+cstring
+-
+ctime
+-
+stdlib.h
+-
+iostream
+-
+fstream
+-
+vector
+-
+string
+-
+math.h
+-
+stb_image.h
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/stb_image.h
+stb_image_write.h
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/stb_image_write.h
+
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/material.h
+color.h
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/color.h
+
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/pixel.h
+stdint.h
+-
+
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/point.h
+iostream
+-
+
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/ray.h
+point.h
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/point.h
+vector.h
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/vector.h
+iostream
+-
+math.h
+-
+string
+-
+
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/scene.h
+point.h
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/point.h
+vector.h
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/vector.h
+ray.h
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/ray.h
+
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/stb_image.h
+stb_image.h
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/stb_image.h
+stdio.h
+-
+stdarg.h
+-
+stddef.h
+-
+stdlib.h
+-
+string.h
+-
+limits.h
+-
+math.h
+-
+stdio.h
+-
+assert.h
+-
+stdint.h
+-
+emmintrin.h
+-
+intrin.h
+-
+arm_neon.h
+-
+
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/stb_image_write.h
+stdio.h
+-
+stdarg.h
+-
+stdlib.h
+-
+string.h
+-
+math.h
+-
+assert.h
+-
+
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/surface.h
+point.h
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/point.h
+vector.h
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/vector.h
+string
+-
+
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/vector.h
+point.h
+/Users/deandrabardell/Documents/School/A UMN Fall 2018/5607/asgn3/src/point.h
+math.h
+-
+iostream
+-
+

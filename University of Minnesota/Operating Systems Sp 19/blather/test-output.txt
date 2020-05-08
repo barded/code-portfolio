@@ -1,0 +1,61 @@
+chmod u+rx test_blather.sh test_blather_data.sh normalize.awk cat_sig.sh filter-semopen-bug.awk
+./test_blather.sh
+Setting COLUMNS based on stty
+COLUMNS is 80
+Loading tests... 20 tests loaded
+Running 20 tests
+
+RUNNING NORMAL TESTS
+TEST  1 server-only        : ALL OK
+TEST  2 1client-1          : ALL OK
+TEST  3 1client-2          : ALL OK
+TEST  4 2client-1          : ALL OK
+TEST  5 2client-2          : ALL OK
+TEST  6 2client-3          : ALL OK
+TEST  7 2client-4          : ALL OK
+TEST  8 2client-5          : ALL OK
+TEST  9 2client-6          : ALL OK
+TEST 10 2client-rejoin1    : ALL OK
+TEST 11 3clients-1         : ALL OK
+TEST 12 3clients-2         : ALL OK
+TEST 13 3clients-3         : ALL OK
+TEST 14 3clients-4         : ALL OK
+TEST 15 3clients-rejoin1   : ALL OK
+TEST 16 4clients-1         : ALL OK
+TEST 17 shutdown-1         : ALL OK
+TEST 18 shutdown-2         : ALL OK
+TEST 19 shutdown-3         : ALL OK
+TEST 20 stress-1           : ALL OK
+
+Finished:
+20 / 20 Normal correct
+
+RUNNING VALGRIND TESTS
+TEST  1 server-only        : ALL OK
+TEST  2 1client-1          : ALL OK
+TEST  3 1client-2          : ALL OK
+TEST  4 2client-1          : ALL OK
+TEST  5 2client-2          : ALL OK
+TEST  6 2client-3          : ALL OK
+TEST  7 2client-4          : ALL OK
+TEST  8 2client-5          : ALL OK
+TEST  9 2client-6          : ALL OK
+TEST 10 2client-rejoin1    : ALL OK
+TEST 11 3clients-1         : ALL OK
+TEST 12 3clients-2         : ALL OK
+TEST 13 3clients-3         : ALL OK
+TEST 14 3clients-4         : ALL OK
+TEST 15 3clients-rejoin1   : ALL OK
+TEST 16 4clients-1         : ALL OK
+TEST 17 shutdown-1         : ALL OK
+TEST 18 shutdown-2         : ALL OK
+TEST 19 shutdown-3         : ALL OK
+TEST 20 stress-1           : ALL OK
+=====================================
+Finished:
+20 / 20 Valgrind correct
+
+=====================================
+OVERALL:
+20 / 20 Normal correct
+20 / 20 Valgrind correct
