@@ -12,7 +12,7 @@ This tutorial will introduce how to open an image, annotate it, and save the ima
 
 \image html mia-start.png
 
-The startup screen is a white canvas with the toolbar on the left. The toolbar has four main sections. File will let you open and save images. Edit lets you undo and redo brush strokes and filters. Tools lets you quickly switch between tools, change color, and change the brush size. Finally, Filters will let you adjust settings for each, and apply them to the entire canvas. To learn more about tools and filters, visit [Getting Started with FlashPhoto](flashphotoguide.html).
+The startup screen is a white canvas with the toolbar on the left. The toolbar has four main sections. File will let you open and save images. Edit lets you undo and redo brush strokes and filters. Tools lets you quickly switch between tools, change color, and change the brush size. Finally, Filters will let you adjust settings for each, and apply them to the entire canvas. To learn more about tools and filters, visit [Getting Started with FlashPhoto](https://github.com/barded/code-portfolio/blob/master/University%20of%20Minnesota/Design%20and%20Development%20F%2018/PROJ/src/flashphotoguide.md).
 
 ##Opening an Image
 
@@ -59,9 +59,9 @@ For example, if we wanted to sharpen foot.png by an amount of 6, we type:
 `./mia foot.png -sharpen 6 foot-sharpen6.png`
 
 \image html foot-sharpen6.png foot-sharpen6.png
-For more information on Command Line Mode, see [command_line_processor.h](classimage__tools_1_1CommandLineProcessor.html).
+For more information on Command Line Mode, see [command_line_processor.h](https://github.com/barded/code-portfolio/blob/master/University%20of%20Minnesota/Design%20and%20Development%20F%2018/PROJ/src/mia/command_line_processor.h).
 
 ##Conclusion
 We hope you have enjoyed and found this tutorial helpful. MIA is a small application built with the medical field in mind. MIA’s small selection of tools and filters is ideal for quickly annotating images. The Command Line Mode is great for editing a large number of images using scripts. Even if you’re not a medical professional, MIA can help you complete your image editing needs!
 
-Learn about our other art program, [FlashPhoto](flashphotoguide.html).
+Learn about our other art program, [FlashPhoto](https://github.com/barded/code-portfolio/blob/master/University%20of%20Minnesota/Design%20and%20Development%20F%2018/PROJ/src/flashphotoguide.md).
