@@ -145,4 +145,4 @@ After making adjustments, *click* Apply.
 
 We hope you have enjoyed and found this tutorial helpful. FlashPhoto is a simple, but powerful, application with ease in mind. By using our tools and filters, you can open and modify images, or start with a blank canvas and create something original. The possibilities are endless!
 
-Learn about our other art program, [MIA](miaguide.html).
+Learn about our other art program, [MIA](https://github.com/barded/code-portfolio/blob/master/University%20of%20Minnesota/Design%20and%20Development%20F%2018/PROJ/src/miaguide.md).
